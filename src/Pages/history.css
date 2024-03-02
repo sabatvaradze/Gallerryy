@@ -1,0 +1,50 @@
+/* History.css */
+.history-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.history-heading {
+  color: #6a0dad;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.history-list-container {
+  overflow-y: auto;
+  width: calc(100% - 400px);
+  margin: 0 auto;
+  height: 500px;
+}
+
+.history-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.history-item {
+  width: 80%; /* Make list items shorter */
+  padding: 12px 20px;
+  background-color: #e8daff;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.history-item:hover {
+  background-color: #d6b0ff;
+  cursor: pointer;
+}
+
+.history-item:last-child {
+  margin-bottom: 0;
+}
