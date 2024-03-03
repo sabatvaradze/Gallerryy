@@ -1,5 +1,5 @@
 .header-div {
-    background-color: #6a5acd; /* Purple-Blue */
+    background-color: #6a5acd;
     color: #fff;
     padding: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -57,7 +57,7 @@
     left: 0;
     width: 200%;
     height: 200%;
-    background: linear-gradient(135deg, #6a5acd, #ff69b4, #1e90ff); /* Purple-Blue-Red/Pink */
+    background: linear-gradient(135deg, #6a5acd, #ff69b4, #1e90ff);
     opacity: 0.8;
     z-index: -1;
     transform: rotate(-45deg);

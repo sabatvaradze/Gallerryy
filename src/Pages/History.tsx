@@ -61,7 +61,7 @@ const History: FC<HistoryProps> = ({
             <img
               key={photo.id}
               src={photo.urls.small}
-              alt={photo.alt_description || 'Photo'} // Updated to alt_description
+              alt={photo.alt_description || 'Photo'} 
               onClick={() => openModal(photo)}
             />
           ))}
